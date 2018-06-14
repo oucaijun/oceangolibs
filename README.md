@@ -9,6 +9,10 @@ FOR GITLAB:
 
 	update libs:
 	go get -u gitlab.com/oucaijun/oceangolibs
+	
+		
+	use:
+	import "gitlab.com/oucaijun/oceangolibs/hello"
 ```
 
 FOR GITHUB:
@@ -18,7 +22,8 @@ FOR GITHUB:
 
 	update libs:
 	go get -u github.com/oucaijun/oceangolibs
+	
+	use:
+	import "github.com/oucaijun/oceangolibs/hello"
+
 ```
-
-
-
